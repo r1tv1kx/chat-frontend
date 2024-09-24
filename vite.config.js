@@ -11,5 +11,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/dist', // Change this to match your deployment path
+  base: '/', // Change this to match your deployment path
 });
